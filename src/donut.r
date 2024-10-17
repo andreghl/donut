@@ -65,7 +65,3 @@ donut <- function(){
     }
 
 }
-
-donut()
-
-
