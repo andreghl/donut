@@ -57,11 +57,11 @@ donut <- function(){
                       b[o] <- strsplit(".,-~:;=!*#\\$@", "")[[1]][1]
                     }
                 }
-
-
             }
         }
         cat("\033[1;1H", paste(b, collapse = ""))
     }
 
 }
+
+donut()
